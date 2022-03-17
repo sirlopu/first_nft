@@ -15,7 +15,7 @@ def deploy_and_create():
     print(
         "Awesome! You can view your NFT at {}".format(
             OPENSEA_URL.format(
-                simple_collectible.address, simple_collectible.tokeCounter() - 1
+                simple_collectible.address, simple_collectible.tokenCounter() - 1
             )
         )
     )
